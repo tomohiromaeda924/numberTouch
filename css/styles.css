@@ -1,0 +1,65 @@
+body {
+    background: #ccc;
+    color: #fff;
+    font-family: 'Courier New', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #container {
+    /* 50px * 2 + 10px * 2 */
+
+    margin: 16px auto;
+    text-align:center;
+  }
+  table{
+    background:#FFFFFF;
+    display:inline-block;
+    padding:10px;
+    border-radius: 10px;
+  }
+
+  td{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    margin:5px;
+    background: #0000FF;
+    text-align: center;
+    line-height: 50px;
+    color:#FFFFFF;
+    border-radius: 10px;
+    box-shadow:0 4px #000080;
+  }
+  ts:active{
+    box-shadow:none;
+  }
+  .back{
+    background: #C0C0C0;
+    color:#C0C0C0;
+    box-shadow:none;
+  }
+  .ok{
+    background: #C0C0C0;
+    box-shadow:none;
+  }
+  .start{
+    width:334px;
+    height:50px;
+    background: #FF0000;
+    color:#FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top:10px;
+    font-size:30px;
+  }
+  #timCount{
+    width:334px;
+    height:20px;
+    text-align:right;
+    margin:0 auto;
+    padding:10px;
+    font-size:20px;
+  }
